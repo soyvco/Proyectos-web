@@ -1,0 +1,83 @@
+body{
+	font-family: 'Lato';
+    
+}
+.fondo-body{
+    background-color: #343838;
+}
+img{
+	max-width: 100%;
+}
+.quitar-float{
+	float: none;
+}
+.espacio-arriba{
+	margin-top: 60px;
+}
+.raleway{
+	font-family: 'Raleway';
+}
+
+.azul{
+	color: #00B4CC;
+}
+.azul2{
+    color: #008C9E;
+}
+.espacio-derecha-botonera{
+	margin-right: 1em;
+}
+a, azul{
+	color: #00B4CC;
+}
+.no-lista{
+    margin: 0px;
+    padding: 0px;
+}
+.no-lista li{
+    list-style-type: none;
+}
+.se-gris {
+    background-color: #666E6E;
+}
+
+.padding-largo {
+    padding: 5px 10px;
+}
+
+.inline-block {
+    float: none;
+    display: inline-block;
+    margin: -4px;
+}
+
+p {
+    color: #FFF;
+}
+
+h2 {
+    color: #FFF;
+}
+.centrar{
+    vertical-align: top;
+}
+.grande{
+    font-size: 3em;
+}
+.mediano {
+    font-size: 2em;
+}
+
+h4 {
+    color: #FFF;
+}
+.retraso-1{
+    -webkit-animation-delay: 1s;
+   -moz-animation-delay: 1s; 
+    animation-delay: 1s;
+}
+.retraso-2{
+    -webkit-animation-delay: 2s;
+   -moz-animation-delay: 2s; 
+    animation-delay: 2s;
+}
