@@ -1,0 +1,30 @@
+body{
+	background-color: #19262F;
+}
+.lobster{
+	font-family: 'Lobster', cursive;
+}
+.Rojo{
+	color: #A51918;
+}
+.Grande{
+	font-size: 4em;
+}
+.mediano{
+	font-size: 2em;
+}
+.espacio-arriba{
+	margin-top: 60px;
+}
+.centrar{
+	vertical-align: top;
+}
+.quitar-float{
+	float: none;
+}
+.lato{
+	font-family: 'Lato', sans-serif;
+}
+.raleway{
+	font-family: 'Raleway', sans-serif;
+}
