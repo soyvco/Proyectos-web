@@ -23,8 +23,8 @@
         <div id="navbar" class="navbar-collapse collapse">
         	<ul class='nav navbar-nav navbar-right'>
         		<?php
-					$secciones= array("Inicio","¿Quiénes somos?","Ubicación","Inscripciones");
-					$direcciones= array("index.php","quienes-somos.php","ubicacion.php","inscripciones.php");
+					$secciones= array("¿Quiénes somos?","Ubicación","Inscripciones");
+					$direcciones= array("quienes-somos.php","ubicacion.php","inscripciones.php");
 					$contador=count($secciones);
 					for ($i=0; $i <$contador; $i++) { 
 						echo("<li><a href='".$direcciones[$i]."'>".$secciones[$i]."</a></li>");
