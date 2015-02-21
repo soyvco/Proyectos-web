@@ -6,25 +6,36 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 	<title>Sistema de registro de alumnos.</title>
 </head>
 <body>
-	<div class='col-md-12 center-block quitar-float text-center'>
-		<h1 class='lobster Rojo Grande espacio-arriba centrar'>Nombre del kinder</h1>
-	</div>
-	<div class='col-md-3'>
-		<ul class='nav nav-sider lobster mediano'>
-			<?php
-				$secciones= array("Inicio","¿Quiénes somos?","Ubicación","Inscripciones");
-				$direcciones= array("index.php","quienes-somos.php","ubicacion.php","inscripciones.php");
-				$contador=count($secciones);
-				for ($i=0; $i <$contador; $i++) { 
-					echo("<li><a href='".$direcciones[$i]."'>".$secciones[$i]."</a></li>");
-				}
-			?>
-		</ul>
-	</div>
+	<nav class="navbar navbar-inverse navbar-fixed-top lobster">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.php">Nombre del kinder</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+        	<ul class='nav navbar-nav navbar-right'>
+        		<?php
+					$secciones= array("Inicio","¿Quiénes somos?","Ubicación","Inscripciones");
+					$direcciones= array("index.php","quienes-somos.php","ubicacion.php","inscripciones.php");
+					$contador=count($secciones);
+					for ($i=0; $i <$contador; $i++) { 
+						echo("<li><a href='".$direcciones[$i]."'>".$secciones[$i]."</a></li>");
+					}
+				?>
+			</ul>
+			<form class="navbar-form navbar-right">
+            <input type="text" class="form-control" placeholder="Busqueda...">
+          	</form>
+        </div>
+      </div>
+    </nav>
 </body>
 </html>
